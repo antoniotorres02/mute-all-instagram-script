@@ -1,9 +1,14 @@
 {
   "devDependencies": {
-    "instagram-private-api": "^1.45.3",
+    "@types/dotenv": "^8.2.0",
+    "instagram-private-api": "github:dilame/instagram-private-api",
     "typescript": "^5.2.2"
-  }
-  ,"scripts": {
+  },
+  "scripts": {
     "start": "tsc script.ts && node script.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "re2": "^1.20.4"
   }
 }
