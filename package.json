@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "instagram-private-api": "^1.45.3",
+    "typescript": "^5.2.2"
+  }
+  ,"scripts": {
+    "start": "tsc script.ts && node script.js"
+  }
+}
